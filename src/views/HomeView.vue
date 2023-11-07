@@ -66,14 +66,14 @@
         </v-row>
       </v-card>
       <v-toolbar color="transparent" dark class="mt-3">
-        <v-checkbox v-model="chair" label="Chairs" class="check mt-4"></v-checkbox>
-        <v-checkbox v-model="other" label="Othermass" class="check mt-4"></v-checkbox>
+        <v-checkbox v-model="chair" label="Available Products" class="check mt-4"></v-checkbox>
+        <v-checkbox v-model="other" label="Unavailable Products" class="check mt-4"></v-checkbox>
         <v-divider vertical></v-divider>
-        <v-btn variant="text">Leather Colors
+        <v-btn variant="text">Genre
           <v-icon right class="ml-2 mt-n1">fas fa-caret-right</v-icon>
         </v-btn>
         <v-divider vertical></v-divider>
-        <v-btn variant="text">Choose Design
+        <v-btn variant="text">Choose Record
           <v-icon right class="ml-2 mt-n1">fas fa-caret-right</v-icon>
         </v-btn>
         <v-divider vertical></v-divider>
@@ -83,7 +83,7 @@
       </v-toolbar>
       <v-divider class=mt-2></v-divider>
       <v-toolbar color="transparent">
-        <v-toolbar-title>LOUNGE CHAIRS</v-toolbar-title>
+        <v-toolbar-title>Records</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-btn variant="text" color="grey">Sort by :</v-btn>
         <v-btn variant="text" color="">Name</v-btn>
@@ -105,7 +105,7 @@
       </v-row>
       <v-divider></v-divider>
       <v-toolbar color="transparent">
-        <v-toolbar-title class="text-caption">Show more chairs</v-toolbar-title>
+        <v-toolbar-title class="text-caption">Show more products</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-icon color="grey" left class="mr-4 mt-n1">fas fa-long-arrow-alt-left</v-icon>
         <span class="text-caption">3</span>
@@ -132,108 +132,108 @@ setup(){
     other: false,
     slider2: 50,
     categories: [
-    { img: "9.png", title: "SLEEPING BEDS" },
-        { img: "2.png", title: "LOUNGE CHAIRS" },
-        { img: "1.png", title: "CHAIRS" },
-        { img: "4.png", title: "OFFICE CHAIRS" },
-        { img: "8.jpg", title: "TABLES NIGHTSTANDS" },
-        { img: "6.png", title: "KITCHEN FURNITURE" },
+    { img: "c16.jpg", title: "HATS" },
+        { img: "c1.jpg", title: "RECORDS" },
+        { img: "1.png", title: "SHOES" },
+        { img: "c15.jpg", title: "SWEATERS" },
+        { img: "8.png", title: "SIGNATURE" },
+        { img: "c16.png", title: "ACCESSORIES" },
     ],
     chairs:[
     {
           class: "pa-0",
           image: "c1.jpg",
-          title: "Lounge Chair",
+          title: "Record 1",
           price: "$ 145.00",
         },
         {
           class: "pa-0",
           image: "c2.jpg",
-          title: "Repos",
+          title: "Record 2",
           price: "$ 145.00",
         },
         {
           class: "pa-0",
           image: "c3.png",
-          title: "Modern Lounge",
+          title: "Record 3",
           price: "$ 145.00",
         },
         {
           class: "pa-0",
           image: "c4.png",
-          title: "Loby Chair",
+          title: "Record 4",
           price: "$ 145.00",
         },
         {
           class: "pa-0",
           image: "c5.png",
-          title: "Modern Lounge",
+          title: "Record 5",
           price: "$ 145.00",
         },
         {
           class: "pa-0",
           image: "c6.png",
-          title: "Modern Lounge",
+          title: "Record 6",
           price: "$ 145.00",
         },
         {
           class: "pa-0",
           image: "c7.png",
-          title: "Modern Lounge",
+          title: "Record 7",
           price: "$ 145.00",
         },
         {
           class: "pa-0",
           image: "c8.png",
-          title: "Modern Lounge",
+          title: "Record 8",
           price: "$ 145.00",
         },
         {
           class: "pa-0",
           image: "c9.png",
-          title: "Modern Lounge",
+          title: "Record 9",
           price: "$ 145.00",
         },
         {
           class: "pa-0",
           image: "c10.png",
-          title: "Modern Lounge",
+          title: "Record 10",
           price: "$ 145.00",
         },
         {
           class: "pa-0",
           image: "c11.png",
-          title: "Modern Lounge",
+          title: "Record 11",
           price: "$ 145.00",
         },
         {
           class: "pa-0",
-          image: "c12.png",
-          title: "Modern Lounge",
+          image: "c12.jpg",
+          title: "Record 12",
           price: "$ 145.00",
         },
         {
           class: "pa-0",
-          image: "c13.png",
-          title: "Modern Lounge",
+          image: "c13.jpg",
+          title: "Record 13",
           price: "$ 145.00",
         },
         {
           class: "pa-0",
-          image: "c14.png",
-          title: "Modern Lounge",
+          image: "c14.jpg",
+          title: "Record 14",
           price: "$ 145.00",
         },
         {
           class: "pa-0",
-          image: "c15.png",
-          title: "Modern Lounge",
+          image: "c15.jpg",
+          title: "Sweater",
           price: "$ 145.00",
         },
         {
           class: "pa-0",
           image: "c16.png",
-          title: "Modern Lounge",
+          title: "Hat",
           price: "$ 145.00",
         },
     ]
