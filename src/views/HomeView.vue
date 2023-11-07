@@ -132,12 +132,12 @@ setup(){
     other: false,
     slider2: 50,
     categories: [
-    { img: "c16.jpg", title: "HATS" },
+    { img: "c16.png", title: "HATS" },
         { img: "c1.jpg", title: "RECORDS" },
         { img: "1.png", title: "SHOES" },
         { img: "c15.jpg", title: "SWEATERS" },
-        { img: "8.png", title: "SIGNATURE" },
-        { img: "c16.png", title: "ACCESSORIES" },
+        { img: "7.png", title: "SIGNATURE" },
+        { img: "8.png", title: "ACCESSORIES" },
     ],
     chairs:[
     {
