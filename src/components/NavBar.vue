@@ -5,7 +5,7 @@
     </v-btn>
     <v-toolbar-title>CATALOG</v-toolbar-title>
     <div style="position: absolute;margin-left:auto;margin-right:auto;left:0;right:0;text-align: center;">
-    <h4>.furniture</h4>
+    <h4>Apored Fanshop</h4>
     </div>
     <v-spacer></v-spacer>
     <v-col cols="3">
