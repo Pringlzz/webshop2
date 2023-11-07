@@ -7,7 +7,7 @@
             <v-btn class="mx-4" variant="text" >Blog</v-btn>
             <v-btn class="mx-4" variant="text" >Inspiration</v-btn>
             <v-btn class="mx-4" variant="text" >About us</v-btn>
-            <v-btn class="mx-4" variant="text" >Cotact</v-btn>
+            <v-btn class="mx-4" variant="text" >Contact</v-btn>
         </v-card-text>
         <v-card-text>
             © {{ new Date().getFullYear()}} - <strong>Apored-Fanshop All Rights Reserved</strong>
