@@ -83,7 +83,7 @@
       </v-toolbar>
       <v-divider class=mt-2></v-divider>
       <v-toolbar color="transparent">
-        <v-toolbar-title>LUCA BITTE ERSCHIESS DICH </v-toolbar-title>
+        <v-toolbar-title>Products</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-btn variant="text" color="grey">Sort by :</v-btn>
         <v-btn variant="text" color="">Name</v-btn>
